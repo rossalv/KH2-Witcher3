@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------
+# NEVER commit extracted game assets (Square Enix / CD PROJEKT RED).
+# Everything ripped from KH2 or Witcher 3 stays on your machine only.
+# ---------------------------------------------------------------
+assets/*
+!assets/README.md
+
+# Raw/converted model formats
+*.mdlx
+*.mset
+*.fbx
+*.dae
+*.blend
+*.blend1
+*.w2mesh
+*.w2ent
+*.w2rig
+*.w2anims
+*.xbm
+*.dds
+*.tga
+
+# Game archives
+*.bundle
+*.cache
+*.hed
+*.pkg
+
+# Vanilla Witcher 3 scripts copied locally for reference
+reference/
+
+# REDkit project output / build artifacts
+redkit/**/workspace/
+redkit/**/packed/
+redkit/**/uncooked/
+redkit/**/cooked/
+build/
+dist/
+*.zip
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+desktop.ini
+.vs/
+.vscode/
